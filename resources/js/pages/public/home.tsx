@@ -1,10 +1,10 @@
 import GuestLayout from "@/layouts/guest-layout";
-import HeroSection from "@/components/marketplace/hero-section";
+import MarketplaceHero from "@/components/marketplace/marketplace-hero";
 
 export default function Home() {
     return (
         <GuestLayout>
-            <HeroSection />
+            <MarketplaceHero />
         </GuestLayout>
     );
 }
